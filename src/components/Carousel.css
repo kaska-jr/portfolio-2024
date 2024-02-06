@@ -1,0 +1,20 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+}
+
+.carousel-text {
+  white-space: nowrap;
+  display: inline-block;
+  animation: scroll 10s linear infinite; /* Adjust animation duration and timing function */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

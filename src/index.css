@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate-div {
+  transform: rotateY(180deg);
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    #8121d0,
+    #8121d0,
+    #221a37,
+    #221a37
+  );
+}
+
+@media screen and (max-width: 1000px) {
+  .gradient {
+    background-image: linear-gradient(
+      to right,
+      #8121d0,
+      #221a37,
+      #221a37,
+      #221a37,
+      #221a37
+    );
+  }
+}
+/* bg-[#221A37] */
+
+.dev {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.low-index {
+  z-index: -1 !important;
+}
+
+.high-index {
+  z-index: 20 !important;
+}
+
+.highest-index {
+  z-index: 9999999999 !important;
+}
+
+/* #about {
+  background-image: url("/main-crack.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+} */
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-carousel {
+  display: flex;
+  transition: transform 15s linear infinite;
+}
+
+.carousel-item {
+  min-width: 100%;
+  flex: 0 0 auto;
+  font-size: 2em;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.move {
+  animation: move 5s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
