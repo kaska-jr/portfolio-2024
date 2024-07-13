@@ -59,7 +59,7 @@ function Navbar() {
           <ul className="lg:flex gap-6 hidden">
             {NavLinks.map((link, index) => {
               return (
-                <li className="text-base font-bold" key={index}>
+                <li className="text-base font-bold capitalize" key={index}>
                   <a href={`#${link.label}`}>{link.label}</a>
                 </li>
               );
