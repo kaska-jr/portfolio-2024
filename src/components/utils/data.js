@@ -6,4 +6,18 @@ const projectDetails = [
     url: "",
     gitHubRepo: "",
   },
+  {
+    image: "",
+    title: "",
+    description: "",
+    url: "",
+    gitHubRepo: "",
+  },
+  {
+    image: "",
+    title: "",
+    description: "",
+    url: "",
+    gitHubRepo: "",
+  },
 ];

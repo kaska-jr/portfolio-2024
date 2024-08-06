@@ -40,8 +40,7 @@ const About = () => {
               <div className="flex items-start gap-2 ">
                 <div className="h-2 w-2 mt-1 rounded-full bg-primary shrink-0"></div>
                 <p className="text-sm md:text-sm lg:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Possimus molestias omnis amet maiores necessitatibus.
+                  Html, CSS, Javascript, React jS and Next JS
                 </p>
               </div>
             </div>
@@ -53,8 +52,7 @@ const About = () => {
               <div className="flex items-start gap-2 ">
                 <div className="h-2 w-2 mt-1 rounded-full bg-primary shrink-0 "></div>
                 <p className="text-sm md:text-sm lg:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Possimus molestias omnis amet maiores necessitatibus.
+                  Lorem ipsum dolor sit amet, consectetur
                 </p>
               </div>
             </div>
